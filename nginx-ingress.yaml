@@ -24,3 +24,7 @@ spec:
                 name: nginx-service2
                 port:
                   number: 80
+
+~~~
+here - path: / nginx2 will not work by default, because nginx default extention is index.html, if we set nginx2.html insted of index.html then will work .  
+~~~
